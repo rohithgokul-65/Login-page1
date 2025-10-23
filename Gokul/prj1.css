@@ -1,0 +1,164 @@
+body {
+   
+  background-image: linear-gradient(to bottom, oklab(77.232% 0.10199 -0.08795), rgb(124, 124, 123));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    background-color: rgb(227, 183, 247);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    width: 300px;
+}
+
+h2 {
+    color: rgb(187, 51, 250);
+    margin-bottom: 10px;
+}
+
+.icons img {
+    margin: 5px;
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+input:hover {
+    background-color: bisque;
+}
+
+button {
+    background-color: rgb(141, 140, 140);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(150, 40, 210);
+}
+
+.forget {
+    cursor: pointer;
+    color: rgb(143, 128, 128);
+    font-size: 0.9em;
+}
+
+.welcome {
+    color: aqua;
+    margin-top: 20px;
+}
+
+.p {
+    color: rgb(150, 40, 210);
+    cursor: pointer;
+}
+
+p:hover {
+    zoom: 29px;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.success {
+    border-color: #04AA6D;
+    color: green;
+}
+
+.success:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+.info {
+    border-color: #2196F3;
+    color: dodgerblue;
+}
+
+.info:hover {
+    background: #2196F3;
+    color: white;
+}
+
+
+.warning {
+    border-color: #ff9800;
+    color: orange;
+}
+
+.warning:hover {
+    background: #ff9800;
+    color: white;
+}
+
+
+.danger {
+    border-color: #f44336;
+    color: red;
+}
+
+.danger:hover {
+    background: #f44336;
+    color: white;
+}
+
+
+.default {
+    border-color: #e7e7e7;
+    color: black;
+}
+
+.default:hover {
+    background: #e7e7e7;
+}
+
+p:hover {
+    zoom: 110%;
+}
+
+.ii {
+    cursor: pointer;
+    color: rgb(141, 140, 140);
+}
+
+.icons img:hover {
+    zoom: 120%;
+}
+.button:active {
+  background-color: #000000;
+  transform: translateY(4px);
+}
+/* .ii:active {
+  color:  rgb(150, 40, 210);
+  transform: translateY(4px);
+} */
+.forget:active {
+  color:  rgb(0, 0, 0);
+  transform: translateY(4px);
+}
